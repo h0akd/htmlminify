@@ -4,6 +4,8 @@ namespace H0akd\Htmlminify;
 
 use Illuminate\Support\ServiceProvider;
 use H0akd\Htmlminify\HtmlMinifyCompiler;
+use Illuminate\View\Engines\CompilerEngine;
+
 
 class HtmlminifyServiceProvider extends ServiceProvider {
 
